@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import axiosInstance from "./config/axiosConfig";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -8,9 +8,9 @@ function App() {
   const [profileData, setProfileData] = useState(null);
 
   function getData() {
-    axios({
+    axiosInstance({
       method: "GET",
-      url: "http://localhost:5000/profile",
+      url: "/profile",
     })
       .then((response) => {
         const res = response.data;
