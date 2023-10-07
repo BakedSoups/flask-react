@@ -4,7 +4,7 @@
   "description": "",
   "main": "base.py",
   "scripts": {
-    "start-backend": "env\\Scripts\\flask run --no-debugger"
+    "start-backend": "env/bin/flask run --no-debugger"
   },
   "author": "",
   "license": "ISC"
