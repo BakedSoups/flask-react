@@ -2,7 +2,6 @@ import { useState } from "react";
 import axiosInstance from "../config/axiosConfig";
 
 function Home() {
-  // new line start
   const [profileData, setProfileData] = useState(null);
 
   function getData() {
@@ -25,7 +24,6 @@ function Home() {
         }
       });
   }
-  //end of new line
 
   return (
     <div className="App">
