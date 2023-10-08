@@ -1,8 +1,8 @@
 import { useState } from "react";
 // import axiosInstance from "../config/axiosConfig";
-import axios from "axios";
+//import axios from "axios";
 
-// import axios from "../config/axiosConfig"; // Import your custom Axios instance
+import axios from "../config/axiosConfig"; // Import your custom Axios instance
 
 function Home() {
   const [profileData, setProfileData] = useState(null);
