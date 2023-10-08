@@ -8,6 +8,9 @@ pip install flask_cors
 
 npm install dotenv  
 npm install node 
+npm install react 
+npm install 
+npm install isex --save
 
 ## TODO 
 - create a main menu GUI with 3 options Flashcards, Written questions, and combo
