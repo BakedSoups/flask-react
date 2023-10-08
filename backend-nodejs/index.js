@@ -22,6 +22,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../flask-react/build", "index.html"));
 });
 
+app.get("/:page", (req, res) => {
+  res.sendFile(path.join(__dirname, "../flask-react/build", "index.html"));
+});
+
 app.get("/profile", (req, res) => {
   // Now you can use this instance to make requests
   instance
